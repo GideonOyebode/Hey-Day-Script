@@ -9,6 +9,11 @@ Each year, we carry on this tradition by handing out name tags and encouraging s
 This year’s Hey Day will be hosted on October 18, 2023 all around campus! We look forward to engaging the Auburn Family by distributing name tags and handing out Hey Day-branded promotional items. Furthermore, we will also be hosting a festive event on the Campus Green for all to enjoy, so we invite everyone to join us for a free, catered meal, a pep-rally performed by the Auburn Cheerleaders, an inflatable obstacle course, and many special guests. We can’t wait to see you all there!"
 
 # Now the script
+#!/bin/bash 
+echo "Please enter your name"
+read name
+echo "Hey, $name!"
+
 #!/bin/bash #this first line is called a shebang and it tells the computer that the script should be interpreted and executed using the Bash shell.
 When you run a script (e.g., ./script.sh), the system reads the shebang and uses the specified interpreter to execute the script.
 
